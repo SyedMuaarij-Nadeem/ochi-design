@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'NeueMontreal';
+    src: url('fonts/NeueMontreal-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+* {
+
+    box-sizing: border-box;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.montreal {
+    font-family: 'NeueMontreal', sans-serif;
+}
+
+.founders {
+    font-family: 'FoundersGrotesk', sans-serif;
+}
